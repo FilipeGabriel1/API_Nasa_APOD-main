@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run NasaApod (Projeto Correto)",
+      "request": "launch",
+      "mainClass": "com.nasa.apod.NasaApodApplication",
+      "projectName": "NasaApod",
+      "cwd": "${workspaceFolder}/API_Nasa_APOD-main/API_Nasa_APOD/NasaApod-main"
+    }
+  ]
+}

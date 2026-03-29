@@ -1,0 +1,286 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: radial-gradient(circle at top, #020617, #000);
+  color: #e5e7eb;
+}
+
+
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.logo-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #020617;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.logo {
+  border: 2px solid red;
+}
+
+
+.logo {
+  width: 100%;
+  object-fit: cover; 
+}
+
+
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px 20px 8px;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 8px 20px;
+  background: #0f172a;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+input {
+  background: #020617;
+  color: white;
+}
+
+button {
+  background: #111827;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4e65a6;
+}
+
+/* layout */
+.container {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* left */
+.left {
+  flex: 2;
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* right */
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 10px;
+}
+/* Aqui vai ser onde vai ficar a imagem do dia */
+#media {
+  width: 100%;
+  height: 600px;
+  background: #020617;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Aqui vai ser onde vai ficar a Barra de pesquisa */
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #1c263f;
+  border-radius: 10px;
+  padding: 0 14px 0 10px;
+  min-height: 46px;
+  min-width: 460px;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.14);
+}
+
+.navbar button {
+  background: transparent;
+  color: #f8fafc;
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 1.03rem;
+  padding: 10px 28px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar button i {
+  margin-right: 8px;
+  color: #93c5fd;
+}
+
+.navbar button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#btn-history {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#btn-ai-gen {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.input-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  min-width: 32px;
+  min-height: 32px;
+  color: #ffffff;
+  background: transparent;
+}
+
+.input-field {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1.06rem;
+}
+
+.input-field::placeholder {
+  color: #ffffff;
+}
+
+.btn-group-history {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+#date-picker {
+  background: transparent;
+  color: #f8fafc;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 14px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#date-picker::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+#date-picker:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 980px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .input-group {
+    min-width: 100%;
+    max-width: 620px;
+  }
+
+  .navbar-buttons {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .navbar button {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    margin: 2px;
+  }
+}
+.input-field:focus {
+  outline: none;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}

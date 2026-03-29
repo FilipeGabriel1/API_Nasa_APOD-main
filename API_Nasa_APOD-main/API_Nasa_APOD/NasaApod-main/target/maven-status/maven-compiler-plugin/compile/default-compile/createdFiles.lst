@@ -1,0 +1,9 @@
+com\nasa\apod\controller\NasaController.class
+com\nasa\apod\service\TraducaoService$DadosTraducao.class
+com\nasa\apod\service\TraducaoService.class
+com\nasa\apod\NasaApodApplication.class
+com\nasa\apod\config\OpenApiConfig.class
+com\nasa\apod\model\Apod.class
+com\nasa\apod\model\BuscaAstronomicaItem.class
+com\nasa\apod\service\TraducaoCacheService.class
+com\nasa\apod\service\TraducaoService$RespostaTraducao.class

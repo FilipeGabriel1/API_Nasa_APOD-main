@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="astrolab.ico" type="image/x-icon">
+  <title>Astronomia do Dia</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JS (defer resolve metade dos problemas da humanidade) -->
+  <script src="js/script.js" defer></script>
+  
+</head>
+
+<body>
+
+<header>
+  <div class="logo-box">
+    <img src="logo-400.png" class="logo">
+  </div>
+  <h1>Astrolab</h1>
+</header>
+
+<nav class="navbar">
+  <div class="navbar-buttons">
+    <div class="btn-group-history">
+      <button id="btn-history"><i class="fa-regular fa-clock"></i> Histórico</button>
+      <input type="date" id="date-picker">
+    </div>
+    <button id="btn-ai"><i class="fa-regular fa-credit-card"></i> IA Tradicional</button>
+    <button id="btn-ai-gen"><i class="fa-solid fa-user-astronaut"></i> IA Generativa</button>
+  </div>
+  
+  <div class="input-group">
+      <div class="input-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <input id="search"
+      type="text" 
+      class="input-field" 
+      placeholder="Buscar..."
+    >
+  </div>
+  
+</nav>
+
+<main class="container">
+
+  <section class="left">
+    <div id="media"></div>
+
+    <h2 id="title"></h2>
+
+    <p><strong>Data:</strong> <span id="date"></span></p>
+
+    <p id="desc"></p>
+  </section>
+
+  <aside class="right">
+    <div class="card" id="info"></div>
+    <div class="card" id="fact"></div>
+  </aside>
+
+
+</main>
+
+<div id="modal" class="modal hidden"></div>
+<img src="logo-400.png" width="200">
+</body>
+</html>
