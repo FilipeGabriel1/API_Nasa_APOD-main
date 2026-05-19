@@ -1,0 +1,14 @@
+Tempo e calendários em astronomia (resumo)
+
+Dia e ano
+- Dia solar: relacionado à rotação da Terra em relação ao Sol.
+- Ano: relacionado à translação da Terra em torno do Sol.
+
+Fusos e UTC
+- UTC é o padrão de referência para marcação de tempo em ciência e tecnologia.
+
+Escalas de tempo
+- Em astronomia e navegação espacial, a correção de relógios e referências de tempo pode ser importante.
+
+Datas astronômicas
+- Muitas bases usam ISO-8601 (AAAA-MM-DD) e timestamps.

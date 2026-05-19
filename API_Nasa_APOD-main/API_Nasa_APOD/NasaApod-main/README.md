@@ -16,6 +16,7 @@ Aplicação Spring Boot que consulta a API NASA APOD (Astronomy Picture Of the D
 - Linguagem: Java 21
 - Framework: Spring Boot 3.x
 - Build: Maven (wrapper incluído)
+- Build: Maven (ou wrapper, se estiver completo)
 - Documentação automática: OpenAPI / Swagger (springdoc)
 
 O projeto expõe os seguintes endpoints principais:
@@ -27,7 +28,7 @@ O projeto expõe os seguintes endpoints principais:
 
 Documentação interativa (Swagger UI):
 
-- `http://localhost:8080/swagger-ui.html` (ou `/swagger-ui/index.html`)
+- `http://localhost:8081/swagger-ui/index.html`
 
 ----
 
@@ -47,23 +48,37 @@ cd 'C:\Users\filip\Downloads\NasaApod-main\NasaApod-main'
 2. (Opcional) buildar o projeto e gerar o jar:
 
 ```powershell
-.\mvnw.cmd clean package
+mvn clean package
 ```
 
 3. Executar a aplicação:
 
 ```powershell
-.\mvnw.cmd spring-boot:run
+mvn spring-boot:run
 # ou, após package:
 java -jar .\target\NasaApod-0.0.1-SNAPSHOT.jar
 ```
 
 4. Abrir no navegador:
 
-- Página da imagem: `http://localhost:8080/`
-- API JSON: `http://localhost:8080/apod`
-- Busca astronômica: `http://localhost:8080/apod/search?query=mars&limit=8`
-- Swagger UI: `http://localhost:8080/swagger-ui.html`
+- Página da imagem: `http://localhost:8081/`
+- API JSON: `http://localhost:8081/apod`
+- Busca astronômica: `http://localhost:8081/apod/search?query=mars&limit=8`
+- Swagger UI: `http://localhost:8081/swagger-ui/index.html`
+
+## IA generativa (chat)
+
+O frontend tem um botão **IA Generativa** que abre um chat e chama `POST /ai/chat`.
+
+1. Copie `.env.example` para `.env`
+2. Edite `.env` e preencha pelo menos:
+
+```text
+AI_CHAT_URL=https://api.openai.com/v1/chat/completions
+AI_API_KEY=...sua chave...
+```
+
+3. (Opcional) Para respostas específicas, edite o arquivo `src/main/resources/ai/knowledge.txt` (FAQ/base de conhecimento), ou defina `AI_CHAT_KNOWLEDGE` no `.env`.
 
 ## Configurar a chave da NASA
 
@@ -85,13 +100,13 @@ Ou execute com argumento do Spring Boot:
 - Curl para obter JSON:
 
 ```powershell
-curl.exe http://localhost:8080/apod
+curl.exe http://localhost:8081/apod
 ```
 
 - Baixar mídia (binário):
 
 ```powershell
-curl.exe -o apod_media.bin http://localhost:8080/apod/image
+curl.exe -o apod_media.bin http://localhost:8081/apod/image
 ```
 
 ## Observações & melhorias

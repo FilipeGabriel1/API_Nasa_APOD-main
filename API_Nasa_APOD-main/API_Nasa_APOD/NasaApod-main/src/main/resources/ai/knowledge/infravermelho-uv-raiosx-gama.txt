@@ -1,0 +1,13 @@
+Astronomia multi-faixa (IR/UV/Raios X/Gama) (resumo)
+
+Infravermelho (IR)
+- Bom para poeira fria, formação estelar e objetos frios; atmosfera absorve parte, então espaço ajuda.
+
+Ultravioleta (UV)
+- Traça gás quente e estrelas jovens; fortemente absorvido pela atmosfera.
+
+Raios X
+- Fenômenos energéticos (acréscimo, remanescentes); observação geralmente espacial.
+
+Gama
+- Eventos extremos e transientes; requer detectores especializados.

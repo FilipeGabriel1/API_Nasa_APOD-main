@@ -1,0 +1,13 @@
+Foguetes e propulsão (resumo)
+
+Por que foguetes
+- Para sair da Terra é necessário empuxo sem depender do ar.
+
+Propulsão química
+- Muito usada para lançamento; alta potência por curto tempo.
+
+Propulsão elétrica
+- Menor empuxo, alta eficiência; útil em manobras longas no espaço.
+
+Orçamento de velocidade (delta-v)
+- Conceito prático para planejar mudanças orbitais.

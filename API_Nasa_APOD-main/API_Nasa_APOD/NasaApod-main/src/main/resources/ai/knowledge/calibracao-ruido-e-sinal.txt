@@ -1,0 +1,10 @@
+Calibração, ruído e sinal (resumo)
+
+Sinal vs ruído
+- Observações reais sempre têm ruído (instrumento, fundo do céu, atmosfera, eletrônica).
+
+Calibração
+- Usa imagens/medidas de referência para corrigir efeitos sistemáticos.
+
+Boas práticas
+- Repetição, controle de variáveis e estimativas de incerteza aumentam confiabilidade.

@@ -1,0 +1,10 @@
+Matemática para astronomia (resumo)
+
+Ideias que aparecem toda hora
+- Trigonometria: ângulos, alturas, projeções no céu.
+- Geometria esférica: coordenadas, separação angular.
+- Logaritmos: magnitude, escalas e ordens de grandeza.
+- Vetores e matrizes: referenciais, rotações.
+
+Por que isso importa
+- Muitas grandezas observadas são ângulos e fluxos; converter para distâncias/energias exige relações matemáticas simples, mas consistentes.

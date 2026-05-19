@@ -1,0 +1,15 @@
+Exoplanetas: métodos de detecção
+
+Trânsito
+- Observa a queda de brilho quando o planeta passa na frente da estrela.
+- Permite estimar raio do planeta e período.
+
+Velocidade radial
+- Mede o “balanço” da estrela via efeito Doppler.
+- Ajuda a estimar massa mínima.
+
+Imagem direta
+- Difícil; funciona melhor para planetas grandes e jovens longe da estrela.
+
+Microlente gravitacional
+- Amplificação temporária de luz por alinhamento gravitacional.

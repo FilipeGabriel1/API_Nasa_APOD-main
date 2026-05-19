@@ -1,0 +1,20 @@
+Este arquivo é um ponto de partida (resumo) e pode ser expandido.
+
+Sistema Solar
+- O Sistema Solar é composto pelo Sol, oito planetas, luas, asteroides, cometas e poeira/gás.
+- Planetas rochosos: Mercúrio, Vênus, Terra, Marte.
+- Gigantes gasosos: Júpiter, Saturno.
+- Gigantes de gelo: Urano, Netuno.
+
+Estrelas
+- Estrelas são esferas de plasma que produzem energia principalmente por fusão nuclear.
+- O Sol é uma estrela do tipo anã amarela (classe espectral G).
+- A cor de uma estrela se relaciona com a temperatura: azul (mais quente) → vermelho (mais frio).
+
+Galáxias
+- Galáxias são grandes conjuntos de estrelas, gás, poeira e matéria escura ligados pela gravidade.
+- A Via Láctea é uma galáxia espiral barrada.
+
+Exoplanetas
+- Exoplanetas são planetas fora do Sistema Solar.
+- Métodos comuns de detecção: trânsito e velocidade radial.

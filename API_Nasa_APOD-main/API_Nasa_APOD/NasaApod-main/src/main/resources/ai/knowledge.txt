@@ -1,0 +1,10 @@
+# Escreva aqui conhecimento específico do seu projeto/domínio.
+# A IA vai usar este conteúdo como “fonte principal” ao responder.
+#
+# Dicas:
+# - Mantenha curto e objetivo (tipo FAQ).
+# - Use formato Pergunta/Resposta.
+# - Se quiser que a IA NUNCA invente, adicione regras no system prompt.
+
+Pergunta: O que é o APOD?
+Resposta: É o Astronomy Picture of the Day da NASA, uma mídia diária com explicação.

@@ -1,0 +1,10 @@
+Estrelas variáveis, pulsantes e novas (resumo)
+
+Estrelas variáveis
+- Têm brilho que muda no tempo por geometria (eclipses), manchas, pulsação ou explosões.
+
+Pulsantes
+- Expandem/contraem periodicamente, mudando luminosidade; úteis como “réguas” para distância em alguns casos.
+
+Novas
+- Eventos em sistemas binários onde material acumulado pode gerar uma erupção brilhante.

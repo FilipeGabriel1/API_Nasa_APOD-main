@@ -1,0 +1,11 @@
+Unidades e escalas em astronomia
+
+Conceitos
+- UA (unidade astronômica): distância média Terra–Sol (~149,6 milhões km).
+- Ano-luz: distância que a luz percorre em 1 ano.
+- Parsec (pc): unidade baseada em paralaxe; 1 pc ~ 3,26 anos-luz.
+
+Escalas típicas
+- Sistema Solar: UA.
+- Via Láctea: kpc.
+- Universo observável: Gpc.

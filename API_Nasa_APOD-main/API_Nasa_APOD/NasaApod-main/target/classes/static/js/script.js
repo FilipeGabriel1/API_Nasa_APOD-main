@@ -272,8 +272,120 @@ btnAI.onclick = () => {
   showModal(`<h3>IA Tradicional</h3><p>${escapeHtml(desc.innerText || "Sem descricao para analisar.")}</p>`);
 };
 
+function renderChatMessage(role, content) {
+  const safeContent = escapeHtml(content || "");
+  const label = role === "user" ? "Você" : "IA";
+  const roleClass = role === "user" ? "user" : "assistant";
+  return `
+    <div class="chat-message ${roleClass}">
+      <div class="chat-message-label">${label}</div>
+      <div class="chat-message-content">${safeContent}</div>
+    </div>
+  `;
+}
+
+function openGenerativeAiChatModal() {
+  const contextoAtual = desc.innerText || "";
+
+  showModal(`
+    <h3>IA Generativa</h3>
+    <p class="chat-hint">Pergunte algo. (Eu uso a descrição atual como contexto, quando existir.)</p>
+    <div class="chat-box">
+      <div id="chat-messages" class="chat-messages"></div>
+      <div class="chat-input-row">
+        <input id="chat-input" class="chat-input" type="text" placeholder="Escreva sua pergunta..." autocomplete="off" />
+        <button id="chat-send" class="chat-send">Enviar</button>
+      </div>
+    </div>
+  `);
+
+  const messagesEl = document.getElementById("chat-messages");
+  const inputEl = document.getElementById("chat-input");
+  const sendBtn = document.getElementById("chat-send");
+
+  if (!messagesEl || !inputEl || !sendBtn) {
+    return;
+  }
+
+  function append(role, text) {
+    messagesEl.insertAdjacentHTML("beforeend", renderChatMessage(role, text));
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+
+  async function send() {
+    const text = (inputEl.value || "").trim();
+    if (!text) return;
+
+    inputEl.value = "";
+    append("user", text);
+
+    sendBtn.disabled = true;
+    inputEl.disabled = true;
+
+    const thinkingId = `thinking-${Date.now()}`;
+    messagesEl.insertAdjacentHTML(
+      "beforeend",
+      `<div id="${thinkingId}" class="chat-message assistant"><div class="chat-message-label">IA</div><div class="chat-message-content">Pensando...</div></div>`
+    );
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+
+    try {
+      const response = await fetch("/ai/chat", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          message: text,
+          context: contextoAtual
+        })
+      });
+
+      if (!response.ok) {
+        const errText = await response.text();
+        throw new Error(errText || `Erro HTTP ${response.status}`);
+      }
+
+      const data = await response.json();
+      const reply = (data && data.reply) ? data.reply : "Sem resposta.";
+
+      const thinkingEl = document.getElementById(thinkingId);
+      if (thinkingEl) {
+        thinkingEl.outerHTML = renderChatMessage("assistant", reply);
+      } else {
+        append("assistant", reply);
+      }
+    } catch (error) {
+      console.error(error);
+      const thinkingEl = document.getElementById(thinkingId);
+      const msg = error.message || "Falha ao conversar com a IA.";
+      const final = `Não consegui responder agora. ${msg}`;
+      if (thinkingEl) {
+        thinkingEl.outerHTML = renderChatMessage("assistant", final);
+      } else {
+        append("assistant", final);
+      }
+    } finally {
+      sendBtn.disabled = false;
+      inputEl.disabled = false;
+      inputEl.focus();
+    }
+  }
+
+  sendBtn.addEventListener("click", send);
+  inputEl.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      send();
+    }
+  });
+
+  append("assistant", "Olá! O que você quer saber?");
+  inputEl.focus();
+}
+
 btnAIGen.onclick = () => {
-  showModal(`<h3>IA Generativa</h3><p>Imagine esta cena em detalhes: ${escapeHtml(desc.innerText || "Sem descricao disponivel.")}</p>`);
+  openGenerativeAiChatModal();
 };
 
 search.addEventListener("keydown", (event) => {

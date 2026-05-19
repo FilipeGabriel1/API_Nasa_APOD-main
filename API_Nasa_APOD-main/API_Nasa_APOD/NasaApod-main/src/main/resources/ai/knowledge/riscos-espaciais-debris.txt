@@ -1,0 +1,10 @@
+Riscos espaciais e detritos orbitais (resumo)
+
+Detritos
+- Fragmentos em órbita podem colidir com satélites e espaçonaves.
+
+Mitigação
+- Rastreamento, manobras de evasão, regras de descarte e redução de fragmentação.
+
+Outros riscos
+- Radiação, reentrada, falhas de propulsão/comunicação.

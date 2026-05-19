@@ -1,0 +1,100 @@
+Objetivo
+Este índice lista tópicos de astronomia/ciência espacial que você pode cobrir na base de conhecimento.
+
+Como usar (RAG)
+- Crie/edite arquivos .txt nesta pasta.
+- Cada arquivo deve conter explicações curtas, exemplos e definições.
+- Prefira parágrafos curtos e listas.
+- Se você quiser que a IA NÃO invente: no .env use AI_CHAT_KNOWLEDGE_STRICT=true.
+
+Tópicos (taxonomia)
+1) Fundamentos
+   - unidades-e-escalas.txt
+   - fisica-basica.txt
+   - matematica-para-astronomia.txt
+   - tempo-e-calendarios.txt
+   - coordenadas-e-referenciais.txt
+
+2) Sistema Solar
+   - sistema-solar-visao-geral.txt
+   - sol.txt
+   - planetas-rochosos.txt
+   - planetas-gigantes.txt
+   - planetas-anoes.txt
+   - luas.txt
+   - aneis.txt
+   - asteroides-meteoros-cometas.txt
+   - cinturoes-kbo-e-nuvem-de-oort.txt
+   - heliosfera-e-vento-solar.txt
+
+3) Terra e ambiente espacial
+   - terra-atmosfera-e-clima-espacial.txt
+   - magnetosfera-e-auroras.txt
+   - ionosfera-radio-e-comunicacao.txt
+   - radiacao-cosmica-e-protecao.txt
+
+4) Estrelas
+   - formacao-estelar.txt
+   - evolucao-estelar.txt
+   - classificacao-espectral.txt
+   - nucleossintese.txt
+   - variaveis-pulsantes-e-novas.txt
+   - supernovas.txt
+   - estrelas-de-neutrons-e-pulsares.txt
+   - buracos-negros-estelares.txt
+
+5) Meio interestelar e nebulosas
+   - meio-interestelar.txt
+   - nebulosas.txt
+   - poeira-gas-e-regioes-hii.txt
+
+6) Galáxias e estruturas
+   - galaxias-tipos-e-componentes.txt
+   - via-lactea.txt
+   - aglomerados-de-galaxias.txt
+   - materia-escura.txt
+   - lentes-gravitacionais.txt
+
+7) Cosmologia
+   - big-bang-e-expansao.txt
+   - fundo-cosmico-de-microondas.txt
+   - energia-escura.txt
+   - inflacao.txt
+   - estrutura-em-grande-escala.txt
+
+8) Exoplanetas e astrobiologia
+   - exoplanetas-deteccao.txt
+   - exoplanetas-classificacao.txt
+   - zonas-habitaveis.txt
+   - astrobiologia.txt
+   - biomarcadores.txt
+   - origem-da-vida-e-panspermia.txt
+
+9) Observação e instrumentos
+   - telescopios-opticos.txt
+   - radioastronomia.txt
+   - infravermelho-uv-raiosx-gama.txt
+   - espectroscopia-fotometria-e-imagem.txt
+   - interferometria.txt
+   - observatorios-espaciais.txt
+   - calibracao-ruido-e-sinal.txt
+
+10) Exploração espacial
+   - foguetes-e-propulsao.txt
+   - mecanica-orbital.txt
+   - missoes-historicas.txt
+   - estacoes-espaciais.txt
+   - exploracao-lunar-e-marte.txt
+   - protecao-planetaria.txt
+   - riscos-espaciais-debris.txt
+
+11) Fenômenos e objetos
+   - ondas-gravitacionais.txt
+   - jatos-relativisticos-quasares.txt
+   - ray-bursts-grb.txt
+   - asteroides-potencialmente-perigosos.txt
+   - meteoritos-e-crateras.txt
+
+Sugestão de próxima ação
+- Escolha 10 arquivos e preencha com conteúdo confiável.
+- Depois aumente gradualmente com novos .txt.

@@ -1,0 +1,10 @@
+Ionosfera, rádio e comunicação (resumo)
+
+Ionosfera
+- Região ionizada da atmosfera superior que influencia propagação de ondas de rádio.
+
+Efeitos
+- Pode refletir ou absorver frequências, variando com dia/noite e atividade solar.
+
+Relevância
+- Importante para comunicação, GPS e radioastronomia (ruído/absorção).

@@ -1,0 +1,12 @@
+Coordenadas e referenciais (resumo)
+
+No céu (observação)
+- Alt-az (altura/azimute): depende do local e da hora.
+- Equatorial (ascensão reta/declinação): ligado à esfera celeste, útil para catálogos.
+
+No espaço (dinâmica)
+- Referenciais inerciais aproximados ajudam em órbitas.
+- Mudanças de referencial explicam porque trajetórias parecem diferentes para observadores distintos.
+
+Erros comuns
+- Confundir direção aparente (no céu) com posição 3D real.

@@ -1,0 +1,10 @@
+# Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets
+.env

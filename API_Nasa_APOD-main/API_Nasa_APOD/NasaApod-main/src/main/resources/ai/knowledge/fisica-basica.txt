@@ -1,0 +1,15 @@
+Física básica para astronomia (resumo)
+
+Gravitação
+- Gravidade é a interação que domina em grandes escalas: mantém planetas em órbita e galáxias ligadas.
+- Em muitos problemas, a gravidade pode ser aproximada como força central (apontando para o centro do corpo).
+
+Energia e radiação
+- Luz é radiação eletromagnética; energia aumenta com a frequência.
+- Objetos quentes emitem radiação térmica; quanto mais quente, mais “azul” o pico de emissão.
+
+Pressão e equilíbrio
+- Estrelas existem por equilíbrio entre gravidade (puxa para dentro) e pressão (empurra para fora).
+
+Movimento
+- Conservação de energia e momento angular são ideias-chave em órbitas e formação de discos.

@@ -1,0 +1,10 @@
+Biomarcadores (resumo)
+
+O que são
+- Indícios observáveis (geralmente químicos/espectrais) que podem sugerir atividade biológica.
+
+Cuidados
+- Muitos sinais têm “falsos positivos” abióticos; o contexto planetário e atmosférico é crucial.
+
+Exemplos (conceituais)
+- Combinações incomuns de gases em desequilíbrio químico, detectáveis por espectroscopia.

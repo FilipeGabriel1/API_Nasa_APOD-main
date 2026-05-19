@@ -1,0 +1,10 @@
+Observatórios espaciais (resumo)
+
+Por que ir ao espaço
+- Evita turbulência atmosférica e permite observar faixas bloqueadas pela atmosfera (UV, raios X, parte do IR).
+
+Limitações
+- Custo, manutenção difícil, restrições de energia/temperatura e comunicação.
+
+Pontos-chave
+- Órbitas (baixa, alta, Lagrange) e controle térmico são essenciais.

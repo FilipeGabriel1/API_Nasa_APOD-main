@@ -1,0 +1,10 @@
+Espectroscopia, fotometria e imagem (resumo)
+
+Fotometria
+- Mede brilho em bandas; útil para trânsitos e variabilidade.
+
+Espectroscopia
+- Separa luz por comprimento de onda; revela composição, temperatura, velocidades (Doppler).
+
+Imagem
+- Resolve estruturas; depende de resolução e sensibilidade.

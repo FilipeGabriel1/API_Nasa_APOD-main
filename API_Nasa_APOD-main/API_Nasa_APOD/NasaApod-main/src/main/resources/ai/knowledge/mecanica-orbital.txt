@@ -1,0 +1,13 @@
+Mecânica orbital (resumo)
+
+Órbitas
+- Órbita elíptica: definida por excentricidade, semi-eixo maior e inclinação.
+- Periapsis/apoapsis: pontos de menor/maior distância.
+
+Leis de Kepler
+- 1ª: órbitas elípticas com o corpo central em um foco.
+- 2ª: áreas iguais em tempos iguais.
+- 3ª: período orbital relacionado ao semi-eixo maior.
+
+Manobras comuns
+- Hohmann, bi-elíptica, assistência gravitacional.

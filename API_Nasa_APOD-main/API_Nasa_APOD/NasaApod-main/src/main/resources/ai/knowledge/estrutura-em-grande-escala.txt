@@ -1,0 +1,10 @@
+Estrutura em grande escala (resumo)
+
+O que é
+- Distribuição de galáxias e matéria em escalas enormes: filamentos, paredes e vazios.
+
+Como surge
+- Flutuações iniciais crescem por gravidade, formando uma “teia cósmica”.
+
+Observação
+- Mapas de redshift e lentes fracas ajudam a reconstruir a distribuição de massa.

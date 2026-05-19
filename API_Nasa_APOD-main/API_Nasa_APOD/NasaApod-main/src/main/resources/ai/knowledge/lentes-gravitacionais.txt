@@ -1,0 +1,10 @@
+Lentes gravitacionais (resumo)
+
+Princípio
+- A gravidade pode desviar a luz; grandes massas “lenteiam” objetos ao fundo.
+
+Tipos
+- Forte (arcos, múltiplas imagens), fraca (distorções estatísticas), microlente.
+
+Usos
+- Estimar massa (inclusive matéria escura), observar galáxias distantes, detectar exoplanetas por microlente.

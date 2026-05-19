@@ -1,0 +1,7 @@
+Zonas habitáveis (resumo)
+
+Definição prática
+- Faixa de distâncias onde água líquida poderia existir na superfície de um planeta, dado um tipo de atmosfera.
+
+Observações
+- Não garante habitabilidade: atmosfera, magnetosfera, geologia e radiação importam.

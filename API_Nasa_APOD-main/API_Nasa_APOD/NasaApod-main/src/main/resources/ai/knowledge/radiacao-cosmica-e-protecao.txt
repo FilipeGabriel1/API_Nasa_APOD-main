@@ -1,0 +1,10 @@
+Radiação cósmica e proteção (resumo)
+
+Fontes
+- Partículas do Sol (eventos) e raios cósmicos galácticos.
+
+Riscos
+- Pode danificar eletrônica e afetar saúde de astronautas.
+
+Mitigação
+- Blindagem, planejamento de missão e monitoramento do clima espacial.

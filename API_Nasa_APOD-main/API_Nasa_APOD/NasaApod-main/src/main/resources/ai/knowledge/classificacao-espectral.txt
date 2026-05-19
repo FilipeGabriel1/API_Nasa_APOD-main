@@ -1,0 +1,10 @@
+Classificação espectral de estrelas (resumo)
+
+Ideia
+- Classificação se baseia no espectro e indica temperatura superficial aproximada.
+
+Sequência (do mais quente ao mais frio)
+- O, B, A, F, G, K, M (mnemônico comum existe, mas a ideia é a ordem).
+
+Luminosidade
+- Além do tipo, há classes de luminosidade (anãs, gigantes, supergigantes), ligadas ao raio e gravidade superficial.

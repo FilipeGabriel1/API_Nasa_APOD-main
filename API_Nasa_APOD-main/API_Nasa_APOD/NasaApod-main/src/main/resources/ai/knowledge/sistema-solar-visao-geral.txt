@@ -1,0 +1,12 @@
+Sistema Solar (visão geral)
+
+Estrutura
+- Sol no centro, planetas orbitando, cinturão de asteroides e regiões transnetunianas.
+
+Classificação de planetas
+- Rochosos: Mercúrio, Vênus, Terra, Marte.
+- Gigantes gasosos: Júpiter, Saturno.
+- Gigantes de gelo: Urano, Netuno.
+
+Corpos menores
+- Asteroides, cometas, meteoróides, objetos do Cinturão de Kuiper.

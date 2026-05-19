@@ -1,0 +1,10 @@
+Radioastronomia (resumo)
+
+O que observa
+- Emissões em rádio de objetos como nuvens de gás, pulsares, jatos e remanescentes.
+
+Interferometria
+- Combinar antenas separadas aumenta a resolução angular efetiva.
+
+Desafios
+- Interferência humana (RFI) e ruído.

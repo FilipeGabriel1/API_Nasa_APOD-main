@@ -1,0 +1,10 @@
+Interferometria (resumo)
+
+Ideia
+- Combinar sinais de múltiplos telescópios para simular uma abertura maior.
+
+Vantagem
+- Melhora muito a resolução angular.
+
+Desafios
+- Sincronização precisa, calibração e reconstrução de imagem.

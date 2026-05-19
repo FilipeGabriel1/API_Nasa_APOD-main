@@ -1,0 +1,10 @@
+Telescópios ópticos (resumo)
+
+Tipos
+- Refratores (lentes) e refletores (espelhos).
+
+Parâmetros
+- Abertura (coleta de luz) e resolução angular.
+
+Limitações
+- Turbulência atmosférica; mitigação: óptica adaptativa e telescópios espaciais.
